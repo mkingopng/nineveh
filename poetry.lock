@@ -53,6 +53,21 @@ tests = ["attrs", "zope-interface"]
 tests-no-zope = ["cloudpickle", "hypothesis", "mypy (>=1.1.1)", "pympler", "pytest-mypy-plugins", "pytest-xdist", "pytest (>=4.3.0)"]
 
 [[package]]
+name = "beautifulsoup4"
+version = "4.12.2"
+description = "Screen-scraping library"
+category = "main"
+optional = false
+python-versions = ">=3.6.0"
+
+[package.dependencies]
+soupsieve = ">1.2"
+
+[package.extras]
+html5lib = ["html5lib"]
+lxml = ["lxml"]
+
+[[package]]
 name = "blis"
 version = "0.7.9"
 description = "The Blis BLAS-like linear algebra library, as a self-contained C-extension."
@@ -62,6 +77,17 @@ python-versions = "*"
 
 [package.dependencies]
 numpy = ">=1.15.0"
+
+[[package]]
+name = "bs4"
+version = "0.0.1"
+description = "Dummy package for Beautiful Soup"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+beautifulsoup4 = "*"
 
 [[package]]
 name = "catalogue"
@@ -654,6 +680,14 @@ test = ["boto3", "google-cloud-storage (>=2.6.0)", "azure-storage-blob", "azure-
 webhdfs = ["requests"]
 
 [[package]]
+name = "soupsieve"
+version = "2.4.1"
+description = "A modern CSS selector implementation for Beautiful Soup."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[[package]]
 name = "spacy"
 version = "3.6.0"
 description = "Industrial-strength Natural Language Processing (NLP) in Python"
@@ -949,14 +983,16 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "8f58b930c01c9cded3c7279a46570c67a8a6dc153536d0c7abb81ff55c4575e3"
+content-hash = "0390ac824e2e1c5584ebc7fd8f8e17d14e3880a8d3ce37e4e6a61311b427886b"
 
 [metadata.files]
 aiohttp = []
 aiosignal = []
 async-timeout = []
 attrs = []
+beautifulsoup4 = []
 blis = []
+bs4 = []
 catalogue = []
 certifi = []
 charset-normalizer = []
@@ -1003,6 +1039,7 @@ scipy = []
 setuptools-scm = []
 six = []
 smart-open = []
+soupsieve = []
 spacy = []
 spacy-legacy = []
 spacy-loggers = []

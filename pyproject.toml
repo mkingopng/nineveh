@@ -9,6 +9,7 @@ python = "^3.10"
 openai = "^0.27.8"
 fastai = "^2.7.12"
 tiktoken = "^0.4.0"
+bs4 = "^0.0.1"
 
 [tool.poetry.dev-dependencies]
 
