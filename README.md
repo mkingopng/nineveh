@@ -1,6 +1,6 @@
 # nineveh
 
-## OpenAI ecosystem
+## OpenAI e
 
 ## Google Bard Ecosystem
 
