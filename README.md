@@ -1,8 +1,18 @@
 # nineveh
 
-## OpenAI e
+## OpenAI 
 
-## Google Bard Ecosystem
+## Google Bard 
+
+## Meta Llama
+
+## Falcon
+
+## Anthropic Claude
+
+## Pi
+
+## Mosaic
 
 ## Stanford Alpaca
 

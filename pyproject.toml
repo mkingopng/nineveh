@@ -10,8 +10,16 @@ openai = "^0.27.8"
 fastai = "^2.7.12"
 tiktoken = "^0.4.0"
 bs4 = "^0.0.1"
-transformers = "^4.30.2"
+transformers = "^4.31.0"
 plotly = "^5.15.0"
+jupyter = "^1.0.0"
+langchain = "^0.0.260"
+tokenizers = "^0.13.3"
+datasets = "^2.14.4"
+huggingface-hub = "^0.16.4"
+spaces = "^0.10.0"
+spacy = "^3.6.1"
+Scrapy = "^2.10.0"
 
 [tool.poetry.dev-dependencies]
 
